@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tongji Eats · Siping（演示版）</title>
+  <meta name="description" content="同济四平路校区 2km 生活圈周边美食导航（演示数据）。">
+  <style>
+    :root{ --brand:#22c55e; --ink:#0f172a; --muted:#64748b; --bg:#ffffff; --card:#f8fafc; --radius:14px; --shadow:0 10px 30px rgba(2,6,23,.08); }
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+    .wrap{max-width:1080px;margin:auto;padding:0 20px}
+    header{position:sticky;top:0;background:#fff;border-bottom:1px solid #e5e7eb;z-index:10}
+    .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:800}
+    .brand .dot{width:12px;height:12px;border-radius:50%;background:var(--brand)}
+    .btn{padding:10px 14px;border-radius:10px;border:1px solid var(--brand);text-decoration:none;display:inline-block}
+    .btn.small{padding:8px 10px;font-size:12px;border-radius:8px}
+    .hero{padding:40px 0 24px;display:grid;gap:24px;grid-template-columns:1.2fr .8fr;align-items:center}
+    h1{margin:12px 0 8px;font-size:36px;line-height:1.1}
+    p.lead{color:var(--muted);font-size:18px}
+    .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:8px}
+    .kpi{padding:14px;border:1px dashed #e5e7eb;border-radius:12px;text-align:center}
+    .card{background:var(--card);border:1px solid #e5e7eb;border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}
+    section{padding:32px 0}
+    .filters{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:10px;margin-top:8px}
+    .filters .field{display:flex;flex-direction:column;gap:6px}
+    label{font-size:12px;color:var(--muted)}
+    select,input[type="search"]{padding:10px;border:1px solid #d1d5db;border-radius:10px;background:transparent;color:var(--ink)}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+    .chip{padding:8px 10px;border-radius:999px;border:1px solid #d1d5db;font-size:12px;cursor:pointer;user-select:none}
+    .chip.active{background:var(--brand);border-color:var(--brand);color:#fff}
+    .toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:16px 0 8px;flex-wrap:wrap}
+    .grid{display:grid;gap:16px;grid-template-columns:repeat(3,1fr)}
+    .place{display:flex;flex-direction:column;gap:10px}
+    .meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;color:var(--muted);font-size:12px}
+    .tags{display:flex;gap:6px;flex-wrap:wrap}
+    .pill{font-size:11px;padding:4px 8px;border-radius:999px;background:#eef2ff;color:#3730a3;border:1px solid #c7d2fe}
+    @media(max-width:900px){ .hero{grid-template-columns:1fr} .grid{grid-template-columns:1fr 1fr} .filters{grid-template-columns:1fr 1fr} }
+    @media(max-width:640px){ .grid{grid-template-columns:1fr} }
+    footer{padding:36px 0;border-top:1px solid #e5e7eb;color:var(--muted);font-size:14px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand"><span class="dot" aria-hidden="true"></span>Tongji Eats · Siping</div>
+      <nav class="actions"><a href="#feedback" class="btn small">反馈</a></nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <h1>同济四平 2km · 周边美食（演示）</h1>
+        <p class="lead">支持搜索、筛选、排序。数据可在源码中直接替换。</p>
+        <div class="kpis">
+          <div class="kpi"><strong id="statTotal">—</strong><div class="muted">收录店铺</div></div>
+          <div class="kpi"><strong id="statQuiet">—</strong><div class="muted">学习友好</div></div>
+          <div class="kpi"><strong id="statLate">—</strong><div class="muted">夜宵营业</div></div>
+        </div>
+      </div>
+      <div class="card"><p class="muted" style="margin:0">演示版不加载真实地图。点击卡片“导航”将打开高德地图标记。</p></div>
+    </section>
+    <section id="list">
+      <h2>筛选 & 列表</h2>
+      <div class="card">
+        <div class="filters" role="group" aria-label="筛选条件">
+          <div class="field"><label for="q">搜索</label><input type="search" id="q" placeholder="店名 / 菜系 / 关键词"></div>
+          <div class="field"><label for="price">人均预算</label><select id="price"><option value="any">不限</option><option value="20">≤ 20 元</option><option value="30">≤ 30 元</option><option value="50">≤ 50 元</option></select></div>
+          <div class="field"><label for="walk">步行时间</label><select id="walk"><option value="any">不限</option><option value="5">≤ 5 分钟</option><option value="10">≤ 10 分钟</option><option value="15">≤ 15 分钟</option></select></div>
+          <div class="field"><label for="sort">排序</label><select id="sort"><option value="rank">推荐排序</option><option value="nearest">离我最近</option><option value="budget">最省钱</option><option value="study">最安静</option><option value="latest">最近核验</option></select></div>
+        </div>
+        <div class="chips" id="chips" aria-label="标签筛选">
+          <span class="chip" data-tag="is_quiet">安静</span>
+          <span class="chip" data-tag="has_outlets">插座</span>
+          <span class="chip" data-tag="has_wifi">Wi‑Fi</span>
+          <span class="chip" data-tag="fast_service">出餐快</span>
+          <span class="chip" data-tag="late_night">夜宵</span>
+          <span class="chip" data-tag="halal">清真</span>
+          <span class="chip" data-tag="vegetarian">素食友好</span>
+        </div>
+        <div class="toolbar"><div class="muted" id="resultCount">— 条结果</div><button class="btn small" id="resetBtn">重置</button></div>
+        <div class="grid" id="grid" aria-live="polite"></div>
+      </div>
+    </section>
+    <section id="feedback">
+      <h2>反馈与纠错</h2>
+      <div class="card">
+        <p class="muted">演示表单，不会保存到服务器。</p>
+        <form id="fbForm">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+            <div class="field"><label for="fbName">店名</label><input id="fbName" required placeholder="店名"></div>
+            <div class="field"><label for="fbType">类型</label><select id="fbType"><option>信息纠错</option><option>新店提报</option><option>其他建议</option></select></div>
+          </div>
+          <div class="field" style="margin-top:10px"><label for="fbMsg">说明</label><textarea id="fbMsg" rows="4" style="width:100%;padding:10px;border:1px solid #d1d5db;border-radius:10px"></textarea></div>
+          <div class="actions" style="margin-top:10px"><button type="reset" class="btn small">清空</button><button type="submit" class="btn small">提交（演示）</button></div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap">© 2025 Tongji Eats · Siping — 演示站点 · 数据示例可在源码中替换</div></footer>
+  <script>
+    const CAMPUS_CENTER = { lat: 31.2825, lng: 121.5045 };
+    const PLACES = [
+      { id:'a01', name:'桥边小饭堂', cuisine:'中式快餐', price_per_capita:28, address:'四平生活圈·示例路 12 号', lat:31.2835, lng:121.5032,
+        tags:{is_quiet:false,has_outlets:false,has_wifi:true,halal:false,vegetarian:'部分可选',fast_service:true,late_night:false},
+        experience:{wait_level:2,noise_level:3,suitable_for_study:false}, signature_dishes:['番茄牛腩饭','锅贴'], one_line_review:'出餐快、性价比高。', last_verified_at:'2025-08-01' },
+      { id:'a02', name:'松果咖啡', cuisine:'咖啡/甜点', price_per_capita:36, address:'示例街 88 号 2F', lat:31.2818, lng:121.509,
+        tags:{is_quiet:true,has_outlets:true,has_wifi:true,halal:false,vegetarian:'友好',fast_service:true,late_night:true},
+        experience:{wait_level:1,noise_level:2,suitable_for_study:true}, signature_dishes:['美式','芝士蛋糕'], one_line_review:'插座多、适合学习。', last_verified_at:'2025-08-05' },
+      { id:'a03', name:'米道便当', cuisine:'便当/日式', price_per_capita:32, address:'示例里 5 号', lat:31.2815, lng:121.5,
+        tags:{is_quiet:false,has_outlets:false,has_wifi:false,halal:false,vegetarian:'部分可选',fast_service:true,late_night:false},
+        experience:{wait_level:2,noise_level:3,suitable_for_study:false}, signature_dishes:['照烧鸡排饭','可乐饼'], one_line_review:'分量足。', last_verified_at:'2025-08-10' },
+      { id:'a04', name:'夜行串社', cuisine:'烧烤/夜宵', price_per_capita:48, address:'示例路 123 号', lat:31.2798, lng:121.4985,
+        tags:{is_quiet:false,has_outlets:false,has_wifi:false,halal:false,vegetarian:'不友好',fast_service:false,late_night:true},
+        experience:{wait_level:3,noise_level:4,suitable_for_study:false}, signature_dishes:['牛肉串','烤鸡翅'], one_line_review:'夜宵好去处。', last_verified_at:'2025-07-28' },
+      { id:'a05', name:'清心小屋·清真', cuisine:'清真/兰州面', price_per_capita:26, address:'示例街 35 号', lat:31.285, lng:121.506,
+        tags:{is_quiet:false,has_outlets:false,has_wifi:false,halal:true,vegetarian:'部分可选',fast_service:true,late_night:false},
+        experience:{wait_level:2,noise_level:3,suitable_for_study:false}, signature_dishes:['牛肉拉面','大盘鸡盖饭'], one_line_review:'清真友好。', last_verified_at:'2025-08-12' },
+      { id:'a06', name:'小树林素食', cuisine:'素食/简餐', price_per_capita:34, address:'示例路 66 号', lat:31.283, lng:121.507,
+        tags:{is_quiet:true,has_outlets:true,has_wifi:true,halal:false,vegetarian:'友好',fast_service:true,late_night:false},
+        experience:{wait_level:1,noise_level:2,suitable_for_study:true}, signature_dishes:['素咖喱','藜麦沙拉'], one_line_review:'素食友好且安静。', last_verified_at:'2025-08-16' }
+    ];
+    const $ = (s, root=document) => root.querySelector(s);
+    const $$ = (s, root=document) => Array.from(root.querySelectorAll(s));
+    const toRad = d => d*Math.PI/180;
+    const haversine = (a, b) => { const R = 6371000; const dLat = toRad(b.lat-a.lat), dLng = toRad(b.lng-a.lng);
+      const lat1 = toRad(a.lat), lat2=toRad(b.lat);
+      const h = Math.sin(dLat/2)**2 + Math.cos(lat1)*Math.cos(lat2)*Math.sin(dLng/2)**2; return 2*R*Math.asin(Math.sqrt(h)); };
+    const walkMins = m => Math.round(m/80);
+    const fmt = v => '¥' + v.toFixed(0);
+    const studyScore = p => (p.tags.is_quiet?1:0)+(p.tags.has_outlets?1:0)+(p.tags.has_wifi?1:0);
+    const freshScore = p => { const days = Math.max(0,(Date.now()-new Date(p.last_verified_at))/86400000); return Math.max(0,1-days/60); };
+    const rankScore = p => { const dist = haversine(CAMPUS_CENTER, p);
+      const sDistance = Math.max(0,1 - dist/1200); const sBudget = Math.max(0,1 - (p.price_per_capita-20)/40);
+      const sStudy = studyScore(p)/3; const sFresh = freshScore(p); return sDistance*0.35 + sBudget*0.30 + sStudy*0.20 + sFresh*0.15; };
+    function tagsToHTML(p){
+      const t=[]; if(p.tags.is_quiet) t.push('<span class="pill">安静</span>');
+      if(p.tags.has_outlets) t.push('<span class="pill">插座</span>');
+      if(p.tags.has_wifi) t.push('<span class="pill">Wi‑Fi</span>');
+      if(p.tags.fast_service) t.push('<span class="pill">出餐快</span>');
+      if(p.tags.late_night) t.push('<span class="pill">夜宵</span>');
+      if(p.tags.halal) t.push('<span class="pill">清真</span>');
+      if(p.tags.vegetarian && p.tags.vegetarian!=='不友好') t.push('<span class="pill">素食</span>');
+      return t.join('');
+    }
+    const state = { q:'', price:'any', walk:'any', sort:'rank', tags:new Set() };
+    function applyFilters(){
+      let list = PLACES.slice();
+      const q = state.q.trim().toLowerCase();
+      if(q) list = list.filter(p => (p.name+p.cuisine+(p.one_line_review||'')).toLowerCase().includes(q));
+      if(state.price!=='any') list = list.filter(p => p.price_per_capita <= parseInt(state.price));
+      if(state.walk!=='any') list = list.filter(p => walkMins(haversine(CAMPUS_CENTER,p)) <= parseInt(state.walk));
+      if(state.tags.size>0) list = list.filter(p => { for(const t of state.tags){
+        if(t==='vegetarian'){ if(!(p.tags.vegetarian && p.tags.vegetarian!=='不友好')) return false; } else if(!p.tags[t]) return false; } return true; });
+      switch(state.sort){
+        case 'nearest': list.sort((a,b)=> haversine(CAMPUS_CENTER,a)-haversine(CAMPUS_CENTER,b)); break;
+        case 'budget': list.sort((a,b)=> a.price_per_capita-b.price_per_capita); break;
+        case 'study': list.sort((a,b)=> studyScore(b)-studyScore(a)); break;
+        case 'latest': list.sort((a,b)=> new Date(b.last_verified_at)-new Date(a.last_verified_at)); break;
+        default: list.sort((a,b)=> rankScore(b)-rankScore(a));
+      }
+      renderList(list);
+    }
+    function renderList(list){
+      const grid = $('#grid'); grid.innerHTML='';
+      list.forEach(p => {
+        const distM = haversine(CAMPUS_CENTER, p), mins = walkMins(distM);
+        const card = document.createElement('article'); card.className = 'card place';
+        card.innerHTML = `
+          <div class="meta">
+            <span class="pill">${p.cuisine}</span>
+            <span>人均 ${fmt(p.price_per_capita)}</span>
+            <span>步行约 ${mins} 分</span>
+            <span class="muted">核验：${p.last_verified_at}</span>
+          </div>
+          <h3>${p.name}</h3>
+          <p class="muted">${p.one_line_review||''}</p>
+          <div class="tags">${tagsToHTML(p)}</div>
+          <div class="meta">
+            <span>${p.address}</span>
+            <a class="btn small" target="_blank" rel="noopener" href="https://uri.amap.com/marker?position=${p.lng},${p.lat}&name=${encodeURIComponent(p.name)}">导航</a>
+          </div>`;
+        grid.appendChild(card);
+      });
+      $('#resultCount').textContent = list.length + ' 条结果';
+    }
+    $('#q').addEventListener('input', e => { state.q = e.target.value; applyFilters(); });
+    $('#price').addEventListener('change', e => { state.price = e.target.value; applyFilters(); });
+    $('#walk').addEventListener('change', e => { state.walk = e.target.value; applyFilters(); });
+    $('#sort').addEventListener('change', e => { state.sort = e.target.value; applyFilters(); });
+    $$('#chips .chip').forEach(ch => ch.addEventListener('click', () => { const tag = ch.dataset.tag;
+      if(state.tags.has(tag)) state.tags.delete(tag); else state.tags.add(tag); ch.classList.toggle('active'); applyFilters(); }));
+    $('#fbForm').addEventListener('submit', e => { e.preventDefault(); alert('提交成功（演示）'); e.target.reset(); });
+    function updateStats(){ $('#statTotal').textContent = PLACES.length;
+      $('#statQuiet').textContent = PLACES.filter(p=>p.tags.is_quiet && p.tags.has_outlets && p.tags.has_wifi).length;
+      $('#statLate').textContent = PLACES.filter(p=>p.tags.late_night).length; }
+    updateStats(); applyFilters();
+  </script>
+</body>
+</html>
