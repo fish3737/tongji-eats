@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "name": "同济大学·西苑饮食广场",
+    "cuisine": "食堂/综合",
+    "address": "四平路1239号 同济大学校内（西苑）",
+    "area": "校内/四平路",
+    "dp_url": "https://m.dianping.com/shop/122347924?msource=applemaps",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%C2%B7%E8%A5%BF%E8%8B%91%E9%A5%AE%E9%A3%9F%E5%B9%BF%E5%9C%BA%20%E5%9B%9B%E5%B9%B3%E8%B7%AF1239%E5%8F%B7%20%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%E6%A0%A1%E5%86%85%EF%BC%88%E8%A5%BF%E8%8B%91%EF%BC%89%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%C2%B7%E8%A5%BF%E8%8B%91%E9%A5%AE%E9%A3%9F%E5%B9%BF%E5%9C%BA%20%E5%9B%9B%E5%B9%B3%E8%B7%AF1239%E5%8F%B7%20%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%E6%A0%A1%E5%86%85%EF%BC%88%E8%A5%BF%E8%8B%91%EF%BC%89"
+  },
+  {
+    "id": 2,
+    "name": "申梦·上荷（四平路店）",
+    "cuisine": "本帮江浙菜",
+    "address": "四平路865号附近",
+    "area": "临平路/四平路",
+    "dp_url": "https://m.dianping.com/shop/1519690010?msource=applemaps",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E7%94%B3%E6%A2%A6%C2%B7%E4%B8%8A%E8%8D%B7%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF865%E5%8F%B7%E9%99%84%E8%BF%91%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E7%94%B3%E6%A2%A6%C2%B7%E4%B8%8A%E8%8D%B7%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF865%E5%8F%B7%E9%99%84%E8%BF%91"
+  },
+  {
+    "id": 3,
+    "name": "锦江大厨（四平路店）",
+    "cuisine": "本帮江浙菜/中餐",
+    "address": "四平路1251号 白玉兰宾馆2楼",
+    "area": "同济大学站/四平路",
+    "dp_url": "https://www.dianping.com/shop/502906/photos/album",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E9%94%A6%E6%B1%9F%E5%A4%A7%E5%8E%A8%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF1251%E5%8F%B7%20%E7%99%BD%E7%8E%89%E5%85%B0%E5%AE%BE%E9%A6%862%E6%A5%BC%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E9%94%A6%E6%B1%9F%E5%A4%A7%E5%8E%A8%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF1251%E5%8F%B7%20%E7%99%BD%E7%8E%89%E5%85%B0%E5%AE%BE%E9%A6%862%E6%A5%BC"
+  },
+  {
+    "id": 4,
+    "name": "星巴克（同济晶度店）",
+    "cuisine": "咖啡",
+    "address": "逸仙路2300号 同济晶度",
+    "area": "五角场/大学路",
+    "dp_url": "https://m.dianping.com/shop/93378743?msource=applemaps",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E6%98%9F%E5%B7%B4%E5%85%8B%EF%BC%88%E5%90%8C%E6%B5%8E%E6%99%B6%E5%BA%A6%E5%BA%97%EF%BC%89%20%E9%80%B8%E4%BB%99%E8%B7%AF2300%E5%8F%B7%20%E5%90%8C%E6%B5%8E%E6%99%B6%E5%BA%A6%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E6%98%9F%E5%B7%B4%E5%85%8B%EF%BC%88%E5%90%8C%E6%B5%8E%E6%99%B6%E5%BA%A6%E5%BA%97%EF%BC%89%20%E9%80%B8%E4%BB%99%E8%B7%AF2300%E5%8F%B7%20%E5%90%8C%E6%B5%8E%E6%99%B6%E5%BA%A6"
+  },
+  {
+    "id": 5,
+    "name": "库迪咖啡（同济联合广场店）",
+    "cuisine": "咖啡",
+    "address": "控江路/政益路 同济联合广场",
+    "area": "同济大学站",
+    "dp_url": "https://m.dianping.com/shop/1638843899?msource=applemaps",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E5%BA%93%E8%BF%AA%E5%92%96%E5%95%A1%EF%BC%88%E5%90%8C%E6%B5%8E%E8%81%94%E5%90%88%E5%B9%BF%E5%9C%BA%E5%BA%97%EF%BC%89%20%E6%8E%A7%E6%B1%9F%E8%B7%AF/%E6%94%BF%E7%9B%8A%E8%B7%AF%20%E5%90%8C%E6%B5%8E%E8%81%94%E5%90%88%E5%B9%BF%E5%9C%BA%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E5%BA%93%E8%BF%AA%E5%92%96%E5%95%A1%EF%BC%88%E5%90%8C%E6%B5%8E%E8%81%94%E5%90%88%E5%B9%BF%E5%9C%BA%E5%BA%97%EF%BC%89%20%E6%8E%A7%E6%B1%9F%E8%B7%AF/%E6%94%BF%E7%9B%8A%E8%B7%AF%20%E5%90%8C%E6%B5%8E%E8%81%94%E5%90%88%E5%B9%BF%E5%9C%BA"
+  },
+  {
+    "id": 6,
+    "name": "星巴克（同济联合广场B座店）",
+    "cuisine": "咖啡",
+    "address": "控江路/政益路 同济联合广场B座",
+    "area": "同济大学站",
+    "dp_url": "https://www.dianping.com/shop/l3jPrB5Od7cX42fq/officialphotos",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E6%98%9F%E5%B7%B4%E5%85%8B%EF%BC%88%E5%90%8C%E6%B5%8E%E8%81%94%E5%90%88%E5%B9%BF%E5%9C%BAB%E5%BA%A7%E5%BA%97%EF%BC%89%20%E6%8E%A7%E6%B1%9F%E8%B7%AF/%E6%94%BF%E7%9B%8A%E8%B7%AF%20%E5%90%8C%E6%B5%8E%E8%81%94%E5%90%88%E5%B9%BF%E5%9C%BAB%E5%BA%A7%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E6%98%9F%E5%B7%B4%E5%85%8B%EF%BC%88%E5%90%8C%E6%B5%8E%E8%81%94%E5%90%88%E5%B9%BF%E5%9C%BAB%E5%BA%A7%E5%BA%97%EF%BC%89%20%E6%8E%A7%E6%B1%9F%E8%B7%AF/%E6%94%BF%E7%9B%8A%E8%B7%AF%20%E5%90%8C%E6%B5%8E%E8%81%94%E5%90%88%E5%B9%BF%E5%9C%BAB%E5%BA%A7"
+  },
+  {
+    "id": 7,
+    "name": "星巴克（四平路店）",
+    "cuisine": "咖啡",
+    "address": "四平路沿线",
+    "area": "四平路",
+    "dp_url": "https://www.dianping.com/shop/k6uVNQwEICHGLVrA/photos",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E6%98%9F%E5%B7%B4%E5%85%8B%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%E6%B2%BF%E7%BA%BF%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E6%98%9F%E5%B7%B4%E5%85%8B%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%E6%B2%BF%E7%BA%BF"
+  },
+  {
+    "id": 8,
+    "name": "Manner Coffee（国权路525号店）",
+    "cuisine": "咖啡",
+    "address": "国权路525号",
+    "area": "五角场/大学路",
+    "dp_url": "https://m.dianping.com/shop/1796660247?msource=applemaps",
+    "nav_amap": "https://uri.amap.com/search?keyword=Manner%20Coffee%EF%BC%88%E5%9B%BD%E6%9D%83%E8%B7%AF525%E5%8F%B7%E5%BA%97%EF%BC%89%20%E5%9B%BD%E6%9D%83%E8%B7%AF525%E5%8F%B7%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/Manner%20Coffee%EF%BC%88%E5%9B%BD%E6%9D%83%E8%B7%AF525%E5%8F%B7%E5%BA%97%EF%BC%89%20%E5%9B%BD%E6%9D%83%E8%B7%AF525%E5%8F%B7"
+  },
+  {
+    "id": 9,
+    "name": "又一村（四平路店）",
+    "cuisine": "本帮小吃/快餐",
+    "address": "四平路591号（近新港路）",
+    "area": "临平路/和平公园",
+    "dp_url": "https://www.dianping.com/shop/502245/photos",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E5%8F%88%E4%B8%80%E6%9D%91%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF591%E5%8F%B7%EF%BC%88%E8%BF%91%E6%96%B0%E6%B8%AF%E8%B7%AF%EF%BC%89%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E5%8F%88%E4%B8%80%E6%9D%91%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF591%E5%8F%B7%EF%BC%88%E8%BF%91%E6%96%B0%E6%B8%AF%E8%B7%AF%EF%BC%89"
+  },
+  {
+    "id": 10,
+    "name": "红城阁·上海味道（四平路店）",
+    "cuisine": "本帮江浙菜",
+    "address": "四平路沿线",
+    "area": "控江/四平路",
+    "dp_url": "https://www.dianping.com/shop/law3j0ZQpNaX5L2w/photos",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E7%BA%A2%E5%9F%8E%E9%98%81%C2%B7%E4%B8%8A%E6%B5%B7%E5%91%B3%E9%81%93%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%E6%B2%BF%E7%BA%BF%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E7%BA%A2%E5%9F%8E%E9%98%81%C2%B7%E4%B8%8A%E6%B5%B7%E5%91%B3%E9%81%93%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%E6%B2%BF%E7%BA%BF"
+  },
+  {
+    "id": 11,
+    "name": "麦当劳（四平路店）",
+    "cuisine": "快餐/西式简餐",
+    "address": "四平路沿线",
+    "area": "四平路",
+    "dp_url": "https://www.dianping.com/shop/k6hzSyZXvdSoEAJe/photos",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E9%BA%A6%E5%BD%93%E5%8A%B3%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%E6%B2%BF%E7%BA%BF%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E9%BA%A6%E5%BD%93%E5%8A%B3%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%E6%B2%BF%E7%BA%BF"
+  },
+  {
+    "id": 12,
+    "name": "美林阁（虹口店）",
+    "cuisine": "本帮/中餐",
+    "address": "四平路257号 虹口世纪酒店1-2楼",
+    "area": "临平路/和平公园",
+    "dp_url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d3449918-Reviews-MeiLin_Ge_HongKou-Shanghai.html",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E7%BE%8E%E6%9E%97%E9%98%81%EF%BC%88%E8%99%B9%E5%8F%A3%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF257%E5%8F%B7%20%E8%99%B9%E5%8F%A3%E4%B8%96%E7%BA%AA%E9%85%92%E5%BA%971-2%E6%A5%BC%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E7%BE%8E%E6%9E%97%E9%98%81%EF%BC%88%E8%99%B9%E5%8F%A3%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF257%E5%8F%B7%20%E8%99%B9%E5%8F%A3%E4%B8%96%E7%BA%AA%E9%85%92%E5%BA%971-2%E6%A5%BC"
+  },
+  {
+    "id": 13,
+    "name": "雨花大酒店（四平店）",
+    "cuisine": "本帮/中餐",
+    "address": "四平路851号",
+    "area": "四平路/曲阳",
+    "dp_url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d4771839-Reviews-YuHua_Restaurant_SiPing-Shanghai.html",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E9%9B%A8%E8%8A%B1%E5%A4%A7%E9%85%92%E5%BA%97%EF%BC%88%E5%9B%9B%E5%B9%B3%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF851%E5%8F%B7%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E9%9B%A8%E8%8A%B1%E5%A4%A7%E9%85%92%E5%BA%97%EF%BC%88%E5%9B%9B%E5%B9%B3%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF851%E5%8F%B7"
+  },
+  {
+    "id": 14,
+    "name": "宝寿司（四平路店）",
+    "cuisine": "日料/寿司",
+    "address": "四平路1149号",
+    "area": "控江/四平路",
+    "dp_url": "https://www.dianping.com/shop/5215776/photos/album",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E5%AE%9D%E5%AF%BF%E5%8F%B8%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF1149%E5%8F%B7%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E5%AE%9D%E5%AF%BF%E5%8F%B8%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF1149%E5%8F%B7"
+  },
+  {
+    "id": 15,
+    "name": "欧仕麦西饼（四平路店）",
+    "cuisine": "面包甜点",
+    "address": "四平路2500号 东方商厦B1",
+    "area": "五角场",
+    "dp_url": "https://www.dianping.com/shop/2581039/photos/album",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E6%AC%A7%E4%BB%95%E9%BA%A6%E8%A5%BF%E9%A5%BC%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF2500%E5%8F%B7%20%E4%B8%9C%E6%96%B9%E5%95%86%E5%8E%A6B1%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E6%AC%A7%E4%BB%95%E9%BA%A6%E8%A5%BF%E9%A5%BC%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF2500%E5%8F%B7%20%E4%B8%9C%E6%96%B9%E5%95%86%E5%8E%A6B1"
+  },
+  {
+    "id": 16,
+    "name": "金时代顺风大酒店（四平路店）",
+    "cuisine": "本帮/江浙菜/宴会",
+    "address": "四平路2500号 ZX造趣场5楼（原悠迈生活广场）",
+    "area": "五角场",
+    "dp_url": "https://www.dianping.com/shop/5115653/photos/album/p5",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E9%87%91%E6%97%B6%E4%BB%A3%E9%A1%BA%E9%A3%8E%E5%A4%A7%E9%85%92%E5%BA%97%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF2500%E5%8F%B7%20ZX%E9%80%A0%E8%B6%A3%E5%9C%BA5%E6%A5%BC%EF%BC%88%E5%8E%9F%E6%82%A0%E8%BF%88%E7%94%9F%E6%B4%BB%E5%B9%BF%E5%9C%BA%EF%BC%89%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E9%87%91%E6%97%B6%E4%BB%A3%E9%A1%BA%E9%A3%8E%E5%A4%A7%E9%85%92%E5%BA%97%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF2500%E5%8F%B7%20ZX%E9%80%A0%E8%B6%A3%E5%9C%BA5%E6%A5%BC%EF%BC%88%E5%8E%9F%E6%82%A0%E8%BF%88%E7%94%9F%E6%B4%BB%E5%B9%BF%E5%9C%BA%EF%BC%89"
+  },
+  {
+    "id": 17,
+    "name": "湘汇轩（四平路店）",
+    "cuisine": "湘菜",
+    "address": "四平路148号（近天水路）",
+    "area": "临平路/和平公园",
+    "dp_url": "https://www.dianping.com/shop/2739151/photos/album",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E6%B9%98%E6%B1%87%E8%BD%A9%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF148%E5%8F%B7%EF%BC%88%E8%BF%91%E5%A4%A9%E6%B0%B4%E8%B7%AF%EF%BC%89%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E6%B9%98%E6%B1%87%E8%BD%A9%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF148%E5%8F%B7%EF%BC%88%E8%BF%91%E5%A4%A9%E6%B0%B4%E8%B7%AF%EF%BC%89"
+  },
+  {
+    "id": 18,
+    "name": "Peet's Coffee 皮爷咖啡（大学路店）",
+    "cuisine": "咖啡",
+    "address": "大学路片区",
+    "area": "大学路/五角场",
+    "dp_url": "https://www.dianping.com/shop/kaH9NVJmuQv5bzuo/photos?pg=12",
+    "nav_amap": "https://uri.amap.com/search?keyword=Peet%27s%20Coffee%20%E7%9A%AE%E7%88%B7%E5%92%96%E5%95%A1%EF%BC%88%E5%A4%A7%E5%AD%A6%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%A4%A7%E5%AD%A6%E8%B7%AF%E7%89%87%E5%8C%BA%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/Peet%27s%20Coffee%20%E7%9A%AE%E7%88%B7%E5%92%96%E5%95%A1%EF%BC%88%E5%A4%A7%E5%AD%A6%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%A4%A7%E5%AD%A6%E8%B7%AF%E7%89%87%E5%8C%BA"
+  },
+  {
+    "id": 19,
+    "name": "孙老三地瓜坊（学海路店）",
+    "cuisine": "小吃甜点",
+    "address": "学海路沿线",
+    "area": "五角场/大学路",
+    "dp_url": "https://www.dianping.com/shop/19629730/officialphotos",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E5%AD%99%E8%80%81%E4%B8%89%E5%9C%B0%E7%93%9C%E5%9D%8A%EF%BC%88%E5%AD%A6%E6%B5%B7%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%AD%A6%E6%B5%B7%E8%B7%AF%E6%B2%BF%E7%BA%BF%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E5%AD%99%E8%80%81%E4%B8%89%E5%9C%B0%E7%93%9C%E5%9D%8A%EF%BC%88%E5%AD%A6%E6%B5%B7%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%AD%A6%E6%B5%B7%E8%B7%AF%E6%B2%BF%E7%BA%BF"
+  },
+  {
+    "id": 20,
+    "name": "肯德基（同济大学校区附近）",
+    "cuisine": "快餐/西式",
+    "address": "四平路周边",
+    "area": "同济大学站",
+    "dp_url": "https://m.dianping.com/search?keyword=%E8%82%AF%E5%BE%B7%E5%9F%BA%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%20%E5%90%8C%E6%B5%8E%20%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%20%E5%9B%9B%E5%B9%B3%E8%B7%AF",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E8%82%AF%E5%BE%B7%E5%9F%BA%EF%BC%88%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%E6%A0%A1%E5%8C%BA%E9%99%84%E8%BF%91%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%91%A8%E8%BE%B9%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E8%82%AF%E5%BE%B7%E5%9F%BA%EF%BC%88%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%E6%A0%A1%E5%8C%BA%E9%99%84%E8%BF%91%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%91%A8%E8%BE%B9"
+  },
+  {
+    "id": 21,
+    "name": "必胜客（四平路/五角场）",
+    "cuisine": "披萨",
+    "address": "四平路周边",
+    "area": "五角场",
+    "dp_url": "https://m.dianping.com/search?keyword=%E5%BF%85%E8%83%9C%E5%AE%A2%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%20%E4%BA%94%E8%A7%92%E5%9C%BA%20%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%20%E5%9B%9B%E5%B9%B3%E8%B7%AF",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E5%BF%85%E8%83%9C%E5%AE%A2%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF/%E4%BA%94%E8%A7%92%E5%9C%BA%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%91%A8%E8%BE%B9%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E5%BF%85%E8%83%9C%E5%AE%A2%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF/%E4%BA%94%E8%A7%92%E5%9C%BA%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%E5%91%A8%E8%BE%B9"
+  },
+  {
+    "id": 22,
+    "name": "老城隍庙小吃（五角场）",
+    "cuisine": "本帮小吃",
+    "address": "四平路2500号附近",
+    "area": "五角场",
+    "dp_url": "https://m.dianping.com/search?keyword=%E8%80%81%E5%9F%8E%E9%9A%8D%E5%BA%99%E5%B0%8F%E5%90%83%20%E4%BA%94%E8%A7%92%E5%9C%BA%20%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%20%E5%9B%9B%E5%B9%B3%E8%B7%AF",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E8%80%81%E5%9F%8E%E9%9A%8D%E5%BA%99%E5%B0%8F%E5%90%83%EF%BC%88%E4%BA%94%E8%A7%92%E5%9C%BA%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF2500%E5%8F%B7%E9%99%84%E8%BF%91%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E8%80%81%E5%9F%8E%E9%9A%8D%E5%BA%99%E5%B0%8F%E5%90%83%EF%BC%88%E4%BA%94%E8%A7%92%E5%9C%BA%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF2500%E5%8F%B7%E9%99%84%E8%BF%91"
+  },
+  {
+    "id": 23,
+    "name": "重庆麻辣烫（国权路店）",
+    "cuisine": "麻辣烫",
+    "address": "国权路328号",
+    "area": "国权路/五角场",
+    "dp_url": "https://m.dianping.com/search?keyword=%E9%87%8D%E5%BA%86%E9%BA%BB%E8%BE%A3%E7%83%AB%20%E5%9B%BD%E6%9D%83%E8%B7%AF328%E5%8F%B7%20%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%20%E5%9B%9B%E5%B9%B3%E8%B7%AF",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E9%87%8D%E5%BA%86%E9%BA%BB%E8%BE%A3%E7%83%AB%EF%BC%88%E5%9B%BD%E6%9D%83%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%BD%E6%9D%83%E8%B7%AF328%E5%8F%B7%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E9%87%8D%E5%BA%86%E9%BA%BB%E8%BE%A3%E7%83%AB%EF%BC%88%E5%9B%BD%E6%9D%83%E8%B7%AF%E5%BA%97%EF%BC%89%20%E5%9B%BD%E6%9D%83%E8%B7%AF328%E5%8F%B7"
+  },
+  {
+    "id": 24,
+    "name": "Café&Meal MUJI（悠迈生活广场店）",
+    "cuisine": "简餐",
+    "address": "四平路2500号 悠迈生活广场",
+    "area": "五角场",
+    "dp_url": "https://m.dianping.com/search?keyword=MUJI%20%E9%A4%90%E5%8E%85%20%E6%82%A0%E8%BF%88%E7%94%9F%E6%B4%BB%E5%B9%BF%E5%9C%BA%20%E5%9B%9B%E5%B9%B3%E8%B7%AF2500%20%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%20%E5%9B%9B%E5%B9%B3%E8%B7%AF",
+    "nav_amap": "https://uri.amap.com/search?keyword=Caf%C3%A9%26Meal%20MUJI%EF%BC%88%E6%82%A0%E8%BF%88%E7%94%9F%E6%B4%BB%E5%B9%BF%E5%9C%BA%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF2500%E5%8F%B7%20%E6%82%A0%E8%BF%88%E7%94%9F%E6%B4%BB%E5%B9%BF%E5%9C%BA%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/Caf%C3%A9%26Meal%20MUJI%EF%BC%88%E6%82%A0%E8%BF%88%E7%94%9F%E6%B4%BB%E5%B9%BF%E5%9C%BA%E5%BA%97%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF2500%E5%8F%B7%20%E6%82%A0%E8%BF%88%E7%94%9F%E6%B4%BB%E5%B9%BF%E5%9C%BA"
+  },
+  {
+    "id": 25,
+    "name": "兰州拉面（政立路/国权路口）",
+    "cuisine": "清真/面食",
+    "address": "政立路/国权路交界",
+    "area": "同济大学站",
+    "dp_url": "https://m.dianping.com/search?keyword=%E5%85%B0%E5%B7%9E%E6%8B%89%E9%9D%A2%20%E6%94%BF%E7%AB%8B%E8%B7%AF%20%E5%9B%BD%E6%9D%83%E8%B7%AF%20%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%20%E5%9B%9B%E5%B9%B3%E8%B7%AF",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E5%85%B0%E5%B7%9E%E6%8B%89%E9%9D%A2%EF%BC%88%E6%94%BF%E7%AB%8B%E8%B7%AF/%E5%9B%BD%E6%9D%83%E8%B7%AF%E5%8F%A3%EF%BC%89%20%E6%94%BF%E7%AB%8B%E8%B7%AF/%E5%9B%BD%E6%9D%83%E8%B7%AF%E4%BA%A4%E7%95%8C%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E5%85%B0%E5%B7%9E%E6%8B%89%E9%9D%A2%EF%BC%88%E6%94%BF%E7%AB%8B%E8%B7%AF/%E5%9B%BD%E6%9D%83%E8%B7%AF%E5%8F%A3%EF%BC%89%20%E6%94%BF%E7%AB%8B%E8%B7%AF/%E5%9B%BD%E6%9D%83%E8%B7%AF%E4%BA%A4%E7%95%8C"
+  },
+  {
+    "id": 26,
+    "name": "一点点（四平路沿线）",
+    "cuisine": "茶饮",
+    "address": "四平路沿线",
+    "area": "四平路",
+    "dp_url": "https://m.dianping.com/search?keyword=%E4%B8%80%E7%82%B9%E7%82%B9%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%20%E4%B8%8A%E6%B5%B7%20%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%20%E5%9B%9B%E5%B9%B3%E8%B7%AF",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E4%B8%80%E7%82%B9%E7%82%B9%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E6%B2%BF%E7%BA%BF%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%E6%B2%BF%E7%BA%BF%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E4%B8%80%E7%82%B9%E7%82%B9%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E6%B2%BF%E7%BA%BF%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%E6%B2%BF%E7%BA%BF"
+  },
+  {
+    "id": 27,
+    "name": "CoCo都可（四平路沿线）",
+    "cuisine": "茶饮",
+    "address": "四平路沿线",
+    "area": "四平路",
+    "dp_url": "https://m.dianping.com/search?keyword=CoCo%E9%83%BD%E5%8F%AF%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%20%E4%B8%8A%E6%B5%B7%20%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%20%E5%9B%9B%E5%B9%B3%E8%B7%AF",
+    "nav_amap": "https://uri.amap.com/search?keyword=CoCo%E9%83%BD%E5%8F%AF%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E6%B2%BF%E7%BA%BF%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%E6%B2%BF%E7%BA%BF%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/CoCo%E9%83%BD%E5%8F%AF%EF%BC%88%E5%9B%9B%E5%B9%B3%E8%B7%AF%E6%B2%BF%E7%BA%BF%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%E6%B2%BF%E7%BA%BF"
+  },
+  {
+    "id": 28,
+    "name": "85°C（五角场/东方商厦）",
+    "cuisine": "面包甜点",
+    "address": "四平路2500号 东方商厦周边",
+    "area": "五角场",
+    "dp_url": "https://m.dianping.com/search?keyword=85%C2%B0C%20%E4%BA%94%E8%A7%92%E5%9C%BA%20%E4%B8%9C%E6%96%B9%E5%95%86%E5%8E%A6%20%E5%9B%9B%E5%B9%B3%E8%B7%AF%20%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%20%E5%9B%9B%E5%B9%B3%E8%B7%AF",
+    "nav_amap": "https://uri.amap.com/search?keyword=85%C2%B0C%EF%BC%88%E4%BA%94%E8%A7%92%E5%9C%BA/%E4%B8%9C%E6%96%B9%E5%95%86%E5%8E%A6%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF2500%E5%8F%B7%20%E4%B8%9C%E6%96%B9%E5%95%86%E5%8E%A6%E5%91%A8%E8%BE%B9%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/85%C2%B0C%EF%BC%88%E4%BA%94%E8%A7%92%E5%9C%BA/%E4%B8%9C%E6%96%B9%E5%95%86%E5%8E%A6%EF%BC%89%20%E5%9B%9B%E5%B9%B3%E8%B7%AF2500%E5%8F%B7%20%E4%B8%9C%E6%96%B9%E5%95%86%E5%8E%A6%E5%91%A8%E8%BE%B9"
+  },
+  {
+    "id": 29,
+    "name": "海底捞火锅（五角场）",
+    "cuisine": "火锅",
+    "address": "五角场商圈",
+    "area": "五角场",
+    "dp_url": "https://m.dianping.com/search?keyword=%E6%B5%B7%E5%BA%95%E6%8D%9E%20%E4%BA%94%E8%A7%92%E5%9C%BA%20%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%20%E5%9B%9B%E5%B9%B3%E8%B7%AF",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E6%B5%B7%E5%BA%95%E6%8D%9E%E7%81%AB%E9%94%85%EF%BC%88%E4%BA%94%E8%A7%92%E5%9C%BA%EF%BC%89%20%E4%BA%94%E8%A7%92%E5%9C%BA%E5%95%86%E5%9C%88%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E6%B5%B7%E5%BA%95%E6%8D%9E%E7%81%AB%E9%94%85%EF%BC%88%E4%BA%94%E8%A7%92%E5%9C%BA%EF%BC%89%20%E4%BA%94%E8%A7%92%E5%9C%BA%E5%95%86%E5%9C%88"
+  },
+  {
+    "id": 30,
+    "name": "上上谦·串串香（五角场）",
+    "cuisine": "川渝/串串",
+    "address": "五角场商圈",
+    "area": "五角场",
+    "dp_url": "https://m.dianping.com/search?keyword=%E4%B8%8A%E4%B8%8A%E8%B0%A6%20%E4%B8%B2%E4%B8%B2%20%E4%BA%94%E8%A7%92%E5%9C%BA%20%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%20%E5%9B%9B%E5%B9%B3%E8%B7%AF",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E4%B8%8A%E4%B8%8A%E8%B0%A6%C2%B7%E4%B8%B2%E4%B8%B2%E9%A6%99%EF%BC%88%E4%BA%94%E8%A7%92%E5%9C%BA%EF%BC%89%20%E4%BA%94%E8%A7%92%E5%9C%BA%E5%95%86%E5%9C%88%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E4%B8%8A%E4%B8%8A%E8%B0%A6%C2%B7%E4%B8%B2%E4%B8%B2%E9%A6%99%EF%BC%88%E4%BA%94%E8%A7%92%E5%9C%BA%EF%BC%89%20%E4%BA%94%E8%A7%92%E5%9C%BA%E5%95%86%E5%9C%88"
+  },
+  {
+    "id": 31,
+    "name": "外婆家（合生汇/万达）",
+    "cuisine": "江浙菜",
+    "address": "五角场商圈",
+    "area": "五角场",
+    "dp_url": "https://m.dianping.com/search?keyword=%E5%A4%96%E5%A9%86%E5%AE%B6%20%E4%BA%94%E8%A7%92%E5%9C%BA%20%E5%90%88%E7%94%9F%E6%B1%87%20%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%20%E5%9B%9B%E5%B9%B3%E8%B7%AF",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E5%A4%96%E5%A9%86%E5%AE%B6%EF%BC%88%E5%90%88%E7%94%9F%E6%B1%87/%E4%B8%87%E8%BE%BE%EF%BC%89%20%E4%BA%94%E8%A7%92%E5%9C%BA%E5%95%86%E5%9C%88%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E5%A4%96%E5%A9%86%E5%AE%B6%EF%BC%88%E5%90%88%E7%94%9F%E6%B1%87/%E4%B8%87%E8%BE%BE%EF%BC%89%20%E4%BA%94%E8%A7%92%E5%9C%BA%E5%95%86%E5%9C%88"
+  },
+  {
+    "id": 32,
+    "name": "奈雪的茶（五角场）",
+    "cuisine": "茶饮",
+    "address": "五角场商圈",
+    "area": "五角场",
+    "dp_url": "https://m.dianping.com/search?keyword=%E5%A5%88%E9%9B%AA%E7%9A%84%E8%8C%B6%20%E4%BA%94%E8%A7%92%E5%9C%BA%20%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%20%E5%9B%9B%E5%B9%B3%E8%B7%AF",
+    "nav_amap": "https://uri.amap.com/search?keyword=%E5%A5%88%E9%9B%AA%E7%9A%84%E8%8C%B6%EF%BC%88%E4%BA%94%E8%A7%92%E5%9C%BA%EF%BC%89%20%E4%BA%94%E8%A7%92%E5%9C%BA%E5%95%86%E5%9C%88%20%E4%B8%8A%E6%B5%B7&city=%E4%B8%8A%E6%B5%B7",
+    "nav_baidu": "https://map.baidu.com/search/%E5%A5%88%E9%9B%AA%E7%9A%84%E8%8C%B6%EF%BC%88%E4%BA%94%E8%A7%92%E5%9C%BA%EF%BC%89%20%E4%BA%94%E8%A7%92%E5%9C%BA%E5%95%86%E5%9C%88"
+  }
+]
