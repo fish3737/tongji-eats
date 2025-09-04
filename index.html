@@ -7,9 +7,9 @@
   <meta name="description" content="同济大学四平路校区2km内周边美食导航。支持搜索、筛选、排序，内置大众点评查看入口与高德/百度地图导航链接。" />
 
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%F0%9F%8D%9C%3C/text%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="./bootstrap/bootstrap.4.6.min.css">
-  <link rel="stylesheet" href="./css/init.css"/>
-  <script src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.13.0/dist/pinyin-pro.min.js"></script>
+  <link rel="stylesheet" href="/bootstrap/bootstrap.4.6.min.css">
+  <link rel="stylesheet" href="/css/init.css"/>
+  
   
 </head>
 <body>
@@ -66,6 +66,22 @@
     </div>
   </footer>
 
+  <!-- Chatbot UI -->
+  <div id="chat-container" class="chat-container">
+    <div id="chat-header" class="chat-header">
+      <span>AI 助手</span>
+      <button id="close-chat" class="close-chat-btn">×</button>
+    </div>
+    <div id="chat-messages" class="chat-messages"></div>
+    <div class="chat-input-container">
+      <input type="text" id="chat-input" class="chat-input" placeholder="输入你的需求...">
+      <button id="chat-send" class="chat-send-btn">发送</button>
+    </div>
+  </div>
+  <button id="chat-toggle" class="chat-toggle-btn">
+    <img src="https://img.icons8.com/color/48/000000/chat--v1.png" alt="Chat">
+  </button>
+
 </body>
-<script src="./js/app.js"></script>
+<script src="/js/app.js"></script>
 </html>
